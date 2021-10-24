@@ -1,3 +1,14 @@
+/* Custom Font */
+@font-face{
+  font-family: 'Buda Light';
+  src: url('Buda-Light.ttf') format("opentype");
+}
+
+@font-face{
+  font-family: 'Segoe UI Black';
+  src: url('Inter-ExtraBold.ttf') format("opentype");
+}
+
 /* Color custom properties */
 
 :root,
@@ -374,7 +385,7 @@ h5,
 
 @media only screen and (min-width: 750px) {
   .h0 {
-    font-size: calc(var(--font-heading-scale) * 5.2rem);
+    font-size: calc(var(--font-heading-scale) * 7rem);
   }
 }
 
@@ -1882,7 +1893,7 @@ input[type='checkbox'] {
 
   .header--middle-left {
     grid-template-areas: 'heading navigation icons';
-    grid-template-columns: auto auto 1fr;
+    grid-template-columns: auto auto auto;
     column-gap: 2rem;
   }
 
@@ -2188,7 +2199,7 @@ details[open] > .header__icon--menu .icon-hamburger {
   }
 
   .header--middle-left .header__inline-menu {
-    margin-left: 0;
+    justify-self: center;
   }
 }
 
