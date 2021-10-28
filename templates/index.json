@@ -21,11 +21,18 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "2475e9d4-a1b4-429c-abfe-58ba607ad7b8": {
+          "type": "text",
+          "settings": {
+            "text": "Bienvenido a Delton."
+          }
         }
       },
       "block_order": [
         "heading",
-        "button"
+        "button",
+        "2475e9d4-a1b4-429c-abfe-58ba607ad7b8"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/b1m_Mesa_de_trabajo_1.png",
