@@ -551,6 +551,16 @@
 
     onScroll() {
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        
+        if (this.mainSection) {
+      if (window.pageYOffset > 30 || document.documentElement.scrollTop > 30) {
+      this.header.style.backgroundColor = "var(--gradient-background)";
+      } else {
+      this.header.style.backgroundColor = "transparent";
+      }
+      }else {
+      this.header.style.backgroundColor = "rgb(var(--color-background))";
+      }
 
       if (scrollTop > this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
         requestAnimationFrame(this.hide.bind(this));
