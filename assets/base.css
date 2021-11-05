@@ -2166,7 +2166,7 @@ details[open] > .header__icon--menu .icon-hamburger {
 }
 
 .header__inline-menu details[open] > .header__submenu {
-  opacity: 1;
+  opacity: 0;
   transform: translateY(0);
   animation: animateMenuOpen var(--duration-default) ease;
   z-index: 1;
