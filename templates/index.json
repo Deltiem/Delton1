@@ -35,12 +35,12 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/b1m_Mesa_de_trabajo_1.png",
+        "image": "shopify:\/\/shop_images\/g1.png",
         "image_height": "large",
-        "adapt_height_first_image": true,
+        "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-start",
         "show_text_box": false,
-        "image_overlay_opacity": 70,
+        "image_overlay_opacity": 20,
         "color_scheme": "background-1",
         "stack_images_on_mobile": false,
         "show_text_below": false
