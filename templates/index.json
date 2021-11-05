@@ -191,12 +191,6 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
-    },
-    "1636136598611d3561": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": ""
-      }
     }
   },
   "order": [
@@ -205,7 +199,6 @@
     "featured_products",
     "collage",
     "video",
-    "multi_column",
-    "1636136598611d3561"
+    "multi_column"
   ]
 }
