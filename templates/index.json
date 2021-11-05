@@ -1,5 +1,10 @@
 {
   "sections": {
+    "163614673604fdb11b": {
+      "type": "hero",
+      "settings": {
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -194,6 +199,7 @@
     }
   },
   "order": [
+    "163614673604fdb11b",
     "image_banner",
     "rich_text",
     "featured_products",
