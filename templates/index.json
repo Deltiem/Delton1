@@ -1,10 +1,5 @@
 {
   "sections": {
-    "1636150001482bc5e0": {
-      "type": "hero",
-      "settings": {
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -196,25 +191,14 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
-    },
-    "16361500251d07013d": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "video_url": "",
-        "description": "",
-        "full_width": false
-      }
     }
   },
   "order": [
-    "1636150001482bc5e0",
     "image_banner",
     "rich_text",
     "featured_products",
     "collage",
     "video",
-    "multi_column",
-    "16361500251d07013d"
+    "multi_column"
   ]
 }
