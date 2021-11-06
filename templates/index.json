@@ -37,7 +37,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/grad12.jpg",
         "image_height": "large",
-        "adapt_height_first_image": true,
+        "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-start",
         "show_text_box": false,
         "image_overlay_opacity": 20,
