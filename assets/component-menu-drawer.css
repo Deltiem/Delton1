@@ -205,8 +205,8 @@ details[open].menu-opening > .menu-drawer__submenu {
 
 .menu-drawer__utility-links {
   padding: 2rem;
-  background-color: rgba(var(--color-foreground), 0.9);
-}
+ background-color: rgb(var(--color-background),0.9);
+   }
 
 .menu-drawer__account {
   display: inline-flex;
