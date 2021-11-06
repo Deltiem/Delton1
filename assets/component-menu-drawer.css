@@ -49,7 +49,9 @@ menu-drawer > details[open] > summary::before {
 
 .js .menu-drawer {
   height: calc(100%);
-  
+  height: calc(
+    var(--viewport-height, 50vh) - (var(--header-bottom-position, 100%))
+  );
 }
 
 .js details[open] > .menu-drawer,
