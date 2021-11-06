@@ -12,7 +12,7 @@
   position: absolute;
   cursor: default;
   width: 100%;
-  height: calc(100vh - 100%);
+  height: calc(100vh - 50%);
   height: calc(
     var(--viewport-height, 100vh) - (var(--header-bottom-position, 100%))
   );
