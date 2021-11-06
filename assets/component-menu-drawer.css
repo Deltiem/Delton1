@@ -190,7 +190,7 @@ details[open].menu-opening > .menu-drawer__submenu {
   width: 100%;
   background-color: transparent;
   font-family: var(--font-body-family);
-  font-style: color: black;
+  font-style: var(--font-body-style);
 }
 
 .no-js .menu-drawer__close-button {
