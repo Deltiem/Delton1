@@ -1,8 +1,8 @@
 ul.menu-drawer__menu.list-menu li {
-    background-color: black !important;
+    background-color: white !important;
 }
 .menu-drawer__menu-item {
-    color: white !important;
+    color: black !important;
 }
 
 .header__icon--menu {
