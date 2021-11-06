@@ -69,7 +69,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 
 @media screen and (min-width: 750px) {
   .menu-drawer {
-    width: 40rem;
+    width: 20rem;
   }
 
   .no-js .menu-drawer {
