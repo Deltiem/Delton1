@@ -174,7 +174,7 @@ details[open].menu-opening > .menu-drawer__submenu {
   border-left: 0.1rem solid rgba(var(--color-foreground), 0.2);
   z-index: 1;
   transform: translateX(100%);
-  visibility: hidden;
+  visibility: collapse;
 }
 
 .js .menu-drawer__submenu .menu-drawer__submenu {
