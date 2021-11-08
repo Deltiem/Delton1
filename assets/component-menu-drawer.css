@@ -37,7 +37,7 @@ menu-drawer > details[open] > summary::before {
   top: 100%;
   width: calc(100vw - 10rem);
   padding: 0;
-  border: 1 rem solid rgba(var(--color-foreground), 0.2);
+  border: 1px solid rgba(var(--color-foreground), 0.2);
   border-left: 0;
   background-color: rgb(var(--color-background),0.95);
   border-radius: 10px;
